@@ -28,3 +28,11 @@
     font-weight: 800;
     font-family: 'Nunito', sans-serif;
 }
+
+.text__afterOn{
+    display: none;
+}
+
+.text__beforeOn{
+ display: none;
+}

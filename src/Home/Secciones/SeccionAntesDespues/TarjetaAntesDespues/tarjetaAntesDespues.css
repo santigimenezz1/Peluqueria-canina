@@ -24,3 +24,11 @@
     font-size: 16px;
 
 }
+
+
+
+
+
+.react-before-after-slider-component {
+    height: 300px; /* Establece la altura fija de las imágenes */
+}
