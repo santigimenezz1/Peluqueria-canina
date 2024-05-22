@@ -1,4 +1,5 @@
 import './App.css'
+import SeccionAntesDespues from './Home/Secciones/SeccionAntesDespues/SeccionAntesDespues'
 import SeccionAtencionCliente from './Home/Secciones/SeccionAtencionCliente/SeccionAtencionCliente'
 import SeccionCitaHome from './Home/Secciones/SeccionCitaHome/SeccionCitaHome'
 import SeccionHeader from './Home/Secciones/SeccionHeader/SeccionHeader'
@@ -15,6 +16,7 @@ function App() {
  <SeccionNuestrosClientes />
  <SeccionAtencionCliente />
  <SeccionCitaHome />
+ <SeccionAntesDespues />
  </div>
   )
 }
