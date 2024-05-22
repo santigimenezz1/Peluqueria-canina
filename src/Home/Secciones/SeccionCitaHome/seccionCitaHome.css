@@ -2,6 +2,8 @@
     width: 100%;
     height: 700px;
     display: flex;
+    margin-top: 100px;
+
     
 }
 .seccionCitaHome__tarjetas{

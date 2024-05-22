@@ -1,0 +1,43 @@
+.container__footer{
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;
+}
+.footer{
+    height: 300px;
+    background-color: rgb(80, 182, 185);
+    display: flex;
+}
+.header__horarios{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding-left: 150px;
+}
+.header__horarios h1{
+    font-family: 'Nunito', sans-serif;
+    color: white
+}
+.header__horarios span{
+    font-family: 'Nunito', sans-serif;
+    color: rgb(0, 76, 102);
+    font-weight: bold;
+}
+.header__infoDireccion h1{
+    font-family: 'Nunito', sans-serif;
+    color: white
+}
+.header__infoDireccion h2{
+    font-family: 'Nunito', sans-serif;
+    color: rgb(0, 76, 102);
+    font-weight: bold;}
+.header__infoDireccion{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+    padding-right: 150px;
+}

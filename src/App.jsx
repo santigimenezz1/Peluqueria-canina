@@ -6,6 +6,7 @@ import SeccionHeader from './Home/Secciones/SeccionHeader/SeccionHeader'
 import SeccionNosotros from './Home/Secciones/SeccionNosotrosHome/SeccionNosotrosHome'
 import SeccionNuestrosClientes from './Home/Secciones/SeccionNuestrosClientes/SeccionNuestrosClientes'
 import SeccionNuestrosServicios from './Home/Secciones/SeccionNuestrosServicios/SeccionNuestrosServicios'
+import Footer from './Layout/Footer/Footer'
 
 function App() {
   return (
@@ -17,6 +18,8 @@ function App() {
  <SeccionAtencionCliente />
  <SeccionCitaHome />
  <SeccionAntesDespues />
+ <SeccionNuestrosServicios />
+ <Footer />
  </div>
   )
 }

@@ -6,18 +6,15 @@ const SeccionAntesDespues = () => {
             <h2>Galeria de fotos</h2>
             <h1>Antes/Despues</h1>
         <div className="seccionAfterBefore">
-        <TarjetaAntesDespues />
-        <TarjetaAntesDespues />
-        <TarjetaAntesDespues />
-        <TarjetaAntesDespues />
-        <TarjetaAntesDespues />
-        <TarjetaAntesDespues />
-        <TarjetaAntesDespues />
-        <TarjetaAntesDespues />
-
-
+        <TarjetaAntesDespues imagen1={"https://res.cloudinary.com/dcf9eqqgt/image/upload/v1716390941/landing%20perritos/fotos-perros-antes-despues-corte-pelo-grace-chon-fb_fajoec.jpg"} imagen2={"https://res.cloudinary.com/dcf9eqqgt/image/upload/v1716390941/landing%20perritos/fotos-perros-antes-despues-corte-pelo-grace-chon-fb_ezovik.jpg"}/>
+        <TarjetaAntesDespues imagen1={"https://res.cloudinary.com/dcf9eqqgt/image/upload/v1716390941/landing%20perritos/fotos-perros-antes-despues-corte-pelo-grace-chon-fb_fajoec.jpg"} imagen2={"https://res.cloudinary.com/dcf9eqqgt/image/upload/v1716390941/landing%20perritos/fotos-perros-antes-despues-corte-pelo-grace-chon-fb_ezovik.jpg"}/>
+        <TarjetaAntesDespues imagen1={"https://res.cloudinary.com/dcf9eqqgt/image/upload/v1716390941/landing%20perritos/fotos-perros-antes-despues-corte-pelo-grace-chon-fb_fajoec.jpg"} imagen2={"https://res.cloudinary.com/dcf9eqqgt/image/upload/v1716390941/landing%20perritos/fotos-perros-antes-despues-corte-pelo-grace-chon-fb_ezovik.jpg"}/>
+        <TarjetaAntesDespues imagen1={"https://res.cloudinary.com/dcf9eqqgt/image/upload/v1716390941/landing%20perritos/fotos-perros-antes-despues-corte-pelo-grace-chon-fb_fajoec.jpg"} imagen2={"https://res.cloudinary.com/dcf9eqqgt/image/upload/v1716390941/landing%20perritos/fotos-perros-antes-despues-corte-pelo-grace-chon-fb_ezovik.jpg"}/>
+        <TarjetaAntesDespues imagen1={"https://res.cloudinary.com/dcf9eqqgt/image/upload/v1716390941/landing%20perritos/fotos-perros-antes-despues-corte-pelo-grace-chon-fb_fajoec.jpg"} imagen2={"https://res.cloudinary.com/dcf9eqqgt/image/upload/v1716390941/landing%20perritos/fotos-perros-antes-despues-corte-pelo-grace-chon-fb_ezovik.jpg"}/>
+        <TarjetaAntesDespues imagen1={"https://res.cloudinary.com/dcf9eqqgt/image/upload/v1716390941/landing%20perritos/fotos-perros-antes-despues-corte-pelo-grace-chon-fb_fajoec.jpg"} imagen2={"https://res.cloudinary.com/dcf9eqqgt/image/upload/v1716390941/landing%20perritos/fotos-perros-antes-despues-corte-pelo-grace-chon-fb_ezovik.jpg"}/>
+        <TarjetaAntesDespues imagen1={"https://res.cloudinary.com/dcf9eqqgt/image/upload/v1716390941/landing%20perritos/fotos-perros-antes-despues-corte-pelo-grace-chon-fb_fajoec.jpg"} imagen2={"https://res.cloudinary.com/dcf9eqqgt/image/upload/v1716390941/landing%20perritos/fotos-perros-antes-despues-corte-pelo-grace-chon-fb_ezovik.jpg"}/>
+        <TarjetaAntesDespues imagen1={"https://res.cloudinary.com/dcf9eqqgt/image/upload/v1716390941/landing%20perritos/fotos-perros-antes-despues-corte-pelo-grace-chon-fb_fajoec.jpg"} imagen2={"https://res.cloudinary.com/dcf9eqqgt/image/upload/v1716390941/landing%20perritos/fotos-perros-antes-despues-corte-pelo-grace-chon-fb_ezovik.jpg"}/>
         </div>
-
         </div>
     )
 }
