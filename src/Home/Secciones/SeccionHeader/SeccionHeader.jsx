@@ -1,7 +1,8 @@
-import BotonPedirCita from '../../components/BotonPedirCita/BotonPedirCita'
-import TextoCeleste from '../../components/TextoCeleste/TextoCeleste'
-import '../SeccionHeader/seccionHeader.css'
+import BotonPedirCita from '../../../components/BotonPedirCita/BotonPedirCita'
+import TextoCeleste from '../../../components/TextoCeleste/TextoCeleste'
 import NavBar from './NavBar/NavBar'
+
+import './seccionHeader.css'
 const SeccionHeader = () => {
     return (
         <div className='header'>

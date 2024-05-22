@@ -1,0 +1,63 @@
+.seccionNuestrosClientes{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    background-color: rgb(250, 249, 251);
+}
+
+.seccionNuestrosClientes__texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.seccionNuestrosClientes__texto h2{
+    font-size: 40px;
+    color: rgb(80, 182, 185);;
+    font-weight: 800;
+    font-family: 'Covered By Your Grace', cursive;
+}
+.seccionNuestrosClientes__texto h1{
+    width: 400px;
+    text-align: center;
+    font-size: 35px;
+    color: rgb(0, 76, 102);
+    font-weight: 800;
+    font-family: 'Nunito', sans-serif;
+}
+.seccionNuestrosClientes__imagenes img {
+    width: 300px;
+    height: 300px;
+}
+.seccionNuestrosClientes__imagenes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.seccionNustrosClientes__imagenes-tarjeta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.seccionNustrosClientes__imagenes-tarjeta h1{
+    width: 400px;
+    text-align: center;
+    font-size: 35px;
+    color: rgb(0, 76, 102);
+    font-weight: 800;
+    font-family: 'Nunito', sans-serif;
+}
+
+.seccionNustrosClientes__imagenes-tarjeta span{
+    width: 400px;
+    text-align: center;
+    color: rgb(0, 76, 102);
+    font-family: 'Nunito', sans-serif;
+}

@@ -1,0 +1,46 @@
+.seccionNosotrosHome{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+
+}
+.seccionNosotrosHome img{
+    width: 600px;
+    height: 400px;
+
+}
+.seccionNosotrosHome__info{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    height: 400px;
+    
+}
+
+.seccionNosotrosHome h1{
+    font-size: 30px;
+    color: rgb(80, 182, 185);;
+    font-weight: 800;
+    font-family: 'Covered By Your Grace', cursive;
+}
+
+.seccionNosotrosHome h2{
+    font-size: 35px;
+    color: rgb(0, 76, 102);
+    font-weight: 800;
+    font-family: 'Nunito', sans-serif;
+}
+
+.seccionNosotrosHome span{
+    width: 380px;
+    font-size: 20px;
+    font-family: 'Nunito', sans-serif;
+    color: rgb(80, 182, 185);;
+
+
+}

@@ -1,6 +1,6 @@
- import BotonPedirCita from '../../../components/BotonPedirCita/BotonPedirCita'
-import '../NavBar/navBar.css'
+import './navBar.css'
 import BotonNav from './BotonNav/BotonNav'
+import BotonPedirCita from '../../../../components/BotonPedirCita/BotonPedirCita'
 const NavBar = () => {
     return (
      <div className="navBar">
