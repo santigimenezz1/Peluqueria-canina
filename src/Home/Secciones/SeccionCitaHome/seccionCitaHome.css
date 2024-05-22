@@ -1,0 +1,17 @@
+.seccionCitaHome{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    
+}
+.seccionCitaHome__tarjetas{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 40px;
+}
+
+.seccionCitaHome__imagen img {
+    width: 600px;
+   }

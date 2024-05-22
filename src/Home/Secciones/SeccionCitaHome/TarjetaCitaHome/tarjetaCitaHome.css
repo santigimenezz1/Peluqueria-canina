@@ -1,0 +1,30 @@
+.tarjetaCitaHome{
+    height: 300px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.tarjetaCitaHome img{
+    width: 200px;
+    height: 180px;
+}
+
+.tarjetaCitaHome h2{
+    text-align: center;
+    line-height: 30px;
+    color: rgb(0, 76, 102);
+    font-size: 22px;
+    font-weight: 800;
+    font-family: 'Nunito', sans-serif;
+    
+}
+
+.tarjetaCitaHome h3{
+    text-align: center;
+    line-height: 30px;
+    font-size: 14px;
+    font-family: 'Nunito', sans-serif;
+    color: rgb(80, 182, 185);
+}
