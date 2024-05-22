@@ -1,0 +1,25 @@
+
+.container__botonNav img{
+   width: 25px;
+   height: 25px;
+   position: absolute;
+   z-index: 1;
+}
+.botonNav{
+    height: 30px;
+    color: white;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    transition: all .1s;
+    font-size: 14px;
+    cursor: pointer;
+    font-family: 'Nunito', sans-serif;
+    line-height: 30px;
+    font-weight: bold;
+    z-index: 2;
+}
+
+.botonNav:hover{
+    color: rgb(80, 182, 185);
+}

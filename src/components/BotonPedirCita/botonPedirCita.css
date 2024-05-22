@@ -1,0 +1,25 @@
+.botonPedirCita{
+    display: inline-block;
+    background-color: rgb(80, 182, 185);
+    padding: 12px;
+    border-radius: 4px;
+    transition: all .2s;
+    cursor: pointer;
+    text-align: center;
+    
+}
+.botonPedirCita button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    width: auto;
+
+}
+
+.botonPedirCita:hover{
+    background-color: rgba(80, 181, 185, 0.827);
+    
+}
