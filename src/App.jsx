@@ -1,4 +1,5 @@
 import './App.css'
+import Contacto from './Contacto/Contacto'
 import SeccionAntesDespues from './Home/Secciones/SeccionAntesDespues/SeccionAntesDespues'
 import SeccionAtencionCliente from './Home/Secciones/SeccionAtencionCliente/SeccionAtencionCliente'
 import SeccionCitaHome from './Home/Secciones/SeccionCitaHome/SeccionCitaHome'
@@ -7,19 +8,16 @@ import SeccionNosotros from './Home/Secciones/SeccionNosotrosHome/SeccionNosotro
 import SeccionNuestrosClientes from './Home/Secciones/SeccionNuestrosClientes/SeccionNuestrosClientes'
 import SeccionNuestrosServicios from './Home/Secciones/SeccionNuestrosServicios/SeccionNuestrosServicios'
 import Footer from './Layout/Footer/Footer'
+import Servicios from './Servicios/Servicios'
+import SobreNosotros from './SobreNosotros/SobreNosotros'
 
 function App() {
   return (
  <div className='containerPrincipal'>
   <img className='containerPrincipal__imagenWhatsapp' src='https://res.cloudinary.com/dcf9eqqgt/image/upload/v1716373884/landing%20perritos/logo_pytkjb.png'></img>
- <SeccionHeader />
- <SeccionNosotros />
- <SeccionNuestrosClientes />
- <SeccionAtencionCliente />
- <SeccionCitaHome />
- <SeccionAntesDespues />
- <SeccionNuestrosServicios />
- <Footer />
+ <Servicios />
+ 
+
  </div>
   )
 }

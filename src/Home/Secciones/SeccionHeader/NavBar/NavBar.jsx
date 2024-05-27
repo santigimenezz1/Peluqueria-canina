@@ -9,7 +9,7 @@ const NavBar = () => {
             <li><BotonNav text={"HOME"}/></li>
             <li><BotonNav text={"SERVICIOS"}/></li>
             <li><BotonNav text={"NOSOTROS"}/></li>
-            <li><BotonNav text={"GALERIA"}/></li>
+            <li><BotonNav text={"CONTACTO"}/></li>
         </ul>
         <div className='navBar__ReservarCita'>
         <BotonPedirCita text={"RESERVAR CITA"} />

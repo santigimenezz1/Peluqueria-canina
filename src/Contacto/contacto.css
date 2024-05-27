@@ -1,0 +1,18 @@
+.container__tarjetaCitaHome{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.container__ubicacion{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.container__ubicacion img{
+    width: 1000px;
+    height: 500px;
+    border-radius: 10px;
+}
