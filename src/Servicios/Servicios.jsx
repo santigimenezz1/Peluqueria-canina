@@ -1,6 +1,7 @@
  import TarjetaServicio from '../Home/Secciones/SeccionNuestrosServicios/TarjetaServicio/TarjetaServicio'
 import Footer from '../Layout/Footer/Footer'
 import '../Servicios/servicios.css'
+import HeaderPages from '../components/HeaderPages/HeaderPages'
 import TextoCeleste from '../components/TextoCeleste/TextoCeleste'
 import HeaderServicios from './HeaderServicios/HeaderServicios'
 import TarjetaServicios from './TarjetaServicios/TarjetaServicios'
@@ -8,7 +9,7 @@ const Servicios = () => {
     return (
         <>
         <div className="servicios">
-            <HeaderServicios />
+        <HeaderPages titulo={"Servicios"} subtitulo={"Un ambiente profesional"} imagen={"https://res.cloudinary.com/dcf9eqqgt/image/upload/v1716920497/landing%20perritos/Dog_Daycare_Business_Plan__The_2022_Getting_Started_Guide_th2jql.jpg"} />
             <h1 className='servicios__titulo'>Nuestros Servicios</h1>
             <div className='servicios__textoCeleste'>
             <TextoCeleste text={"Belleza y Estetica"} />

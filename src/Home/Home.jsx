@@ -15,6 +15,7 @@ const Home = () => {
             <SeccionNuestrosClientes />
             <SeccionCitaHome />
             <SeccionAtencionCliente />
+            <SeccionNuestrosServicios />
             <SeccionAntesDespues />
             <Footer />
 

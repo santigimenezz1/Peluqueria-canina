@@ -1,4 +1,5 @@
- import BotonPedirCita from '../../../components/BotonPedirCita/BotonPedirCita'
+ import { Link } from 'react-router-dom'
+import BotonPedirCita from '../../../components/BotonPedirCita/BotonPedirCita'
 import './seccionNosotrosHome.css'
 const SeccionNosotros = () => {
     return (
@@ -15,7 +16,9 @@ const SeccionNosotros = () => {
                       CUIDADO POR SU TIPO DE MANTO.
                     </span>
                      <div>
+                        <Link to={"/nosotros"}>
                     <BotonPedirCita text={"SOBRE NOSOTROS"} />
+                        </Link>
                      </div>
             </div>
 
