@@ -5,7 +5,9 @@ import { Link } from 'react-router-dom'
 const NavBar = () => {
     return (
      <div className="navBar">
+        <Link to={'/'}>
         <img  className='navBar__logo' src='https://res.cloudinary.com/dcf9eqqgt/image/upload/v1715935054/landing%20perritos/perro_hlxhsc.png'></img>
+        </Link>
         <ul className='navBar__enlaces'>
             <Link to={"/"}>
             <li><BotonNav text={"HOME"}/></li>
