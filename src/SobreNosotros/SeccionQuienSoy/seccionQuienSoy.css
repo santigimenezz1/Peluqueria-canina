@@ -15,7 +15,7 @@
     
 }
 .seccionQuienSoy__info{
-    width: 450px;
+    width: 500px;
     height: 100%;
     padding-top: 30px;
     display: flex;
@@ -24,26 +24,33 @@
 }
 .seccionQuienSoy__info h1{
     text-align: center;
-    font-size: 50px;
+    font-size: 60px;
     line-height: 80px;
     color: rgb(80, 182, 185);;
     font-weight: 800;
     font-family: 'Nunito', sans-serif;
     
+    
 }
 .seccionQuienSoy__info h2{
     text-align: center;
     font-family: 'Covered By Your Grace', cursive;
-    font-size: 25px;
+    font-size: 35px;
     font-weight: 200; 
+}
+.seccionQuienSoy__info h2 span{
+    text-align: center;
+    font-family: 'Covered By Your Grace', cursive;
+    font-size: 60px;
+    font-weight: 200; 
+    color: rgb(80, 182, 185);
 }
 
 .seccionQuienSoy__info span{
     text-align: center;
     font-family: 'Nunito', sans-serif;
     font-size: 25px;
-    font-weight: 200; 
-    
+    font-weight: 200;  
 }
 .seccionQuienSoy__imagenes img {
     width: 400px;
@@ -55,14 +62,11 @@
 
 }
 
-.seccionQuienSoy__info__descripcion{
-    display: flex;
-    justify-content: center;
-}
+
 
 .seccionQuienSoy__proposito{
     display: flex;
-    gap: 20px;
+    gap: 60px;
     margin-top: 50px;
     margin-bottom: 50px;
 }
@@ -75,10 +79,11 @@
     font-family: 'Nunito', sans-serif;   
 }
 .seccionQuienSoy__proposito span{
-    text-align: center;
+    text-align: start;
     font-family: 'Nunito', sans-serif;
     font-size: 25px;
     font-weight: 200;  
+    margin-left: 30px;
 }
 .seccionQuienSoy__proposito__imagenes{
     width: 520px;
@@ -103,3 +108,4 @@
     display: flex;
     flex-direction: column;
 }
+

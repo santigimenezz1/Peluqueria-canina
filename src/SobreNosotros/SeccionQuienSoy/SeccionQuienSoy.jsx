@@ -5,9 +5,9 @@ const SeccionQuienSoy = () => {
         <div className="seccionQuienSoy">
             <div className='seccionQuienSoy__info'>
                 <h1>Quien soy?</h1>
-                <h2>Lorena, una vida por los animales</h2>
+                <h2><span>Lorena,</span> una vida por los animales</h2>
                 <div className='seccionQuienSoy__info__descripcion'>
-                <span className='info__texto'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae, magnam eaque? Quidem qui suscipit vel, id sapiente iure quibusdam enim at voluptates ipsa veniam corrupti sunt doloribus ullam, nam dolorum.  amet consectetur, adipisicing elit. Quae, magnam eaque? Quidem qui suscipit vel, id sapiente iure quibusdam enim at voluptates ipsa veniam corrupti sunt doloribus ullam, nam dolorum</span>
+                <span className='info__texto'>Soy Lorena, una apasionada peluquera canina en Valencia. Dedico mi vida a embellecer y cuidar a tus mascotas, asegurando que cada visita sea una experiencia agradable y relajante para ellos. Con años de experiencia y un amor profundo por los animales, me esfuerzo por ofrecer el mejor servicio posible, utilizando técnicas suaves y productos de alta calidad. Mi objetivo es que cada mascota salga feliz, hermosa y cómoda, reflejando mi compromiso y dedicación a su bienestar.</span>
                 </div>
             </div>
             <div className='seccionQuienSoy__imagenes'>
@@ -24,7 +24,7 @@ const SeccionQuienSoy = () => {
             </div>
             <div className='seccionQuienSoy__proposito__informacion'>
                 <h1>Nuestro proposito</h1>
-                <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae, magnam eaque? Quidem qui suscipit vel, id sapiente iure quibusdam enim at voluptates ipsa veniam corrupti sunt doloribus ullam, nam dolorum.  amet consectetur, adipisicing elit. Quae, magnam eaque? Quidem qui suscipit vel, id sapiente iure quibusdam enim at voluptates ipsa veniam corrupti sunt doloribus ullam, nam dolorum</span>
+                <span>En nuestra peluquería canina, nos dedicamos a ofrecer el mejor cuidado y atención a tus mascotas. Creemos en el bienestar animal y trabajamos con pasión para que cada visita sea una experiencia positiva. Utilizamos productos de alta calidad y técnicas especializadas para garantizar que cada mascota salga feliz y hermosa. Nuestro compromiso es brindar un servicio excepcional que refleje nuestro amor y dedicación hacia los animales.</span>
             </div>
             </div>
 
@@ -32,7 +32,7 @@ const SeccionQuienSoy = () => {
              <div className='seccionQuienSoy__proposito'>
             <div className='seccionQuienSoy__proposito__informacion'>
                 <h1>Nuestro lugar :)</h1>
-                <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae, magnam eaque? Quidem qui suscipit vel, id sapiente iure quibusdam enim at voluptates ipsa veniam corrupti sunt doloribus ullam, nam dolorum.  amet consectetur, adipisicing elit. Quae, magnam eaque? Quidem qui suscipit vel, id sapiente iure quibusdam enim at voluptates ipsa veniam corrupti sunt doloribus ullam, nam dolorum</span>
+                <span>En nuestro cálido y acogedor espacio, cada mascota es recibida con amor y cuidado excepcional. Nos esforzamos por crear un ambiente seguro y relajado donde tanto tú como tu peludo amigo se sientan como en casa. Con un equipo dedicado y una atención personalizada, estamos comprometidos a brindarte una experiencia única y reconfortante. Estamos aquí para que cada visita sea especial y llena de momentos felices para ti y tu mascota.</span>
             </div>
             <div className='seccionQuienSoy__proposito__imagenes'>
                 <img src='https://res.cloudinary.com/dcf9eqqgt/image/upload/v1716820574/landing%20perritos/FIDO_PET_SHOP_homify_ik76zc.jpg'></img>
