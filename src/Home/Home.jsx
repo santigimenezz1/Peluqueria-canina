@@ -18,7 +18,6 @@ const Home = () => {
             <SeccionAtencionCliente />
             <SeccionNuestrosServicios />
             <SeccionAntesDespues />
-            <VideoPublicidad />
             <Footer />
 
 
