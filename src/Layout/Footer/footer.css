@@ -5,8 +5,15 @@
 }
 .footer{
     height: 300px;
-    background-color: rgb(80, 182, 185);
     display: flex;
+    position: relative;
+}
+.footer img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    filter: brightness(0.4);
 }
 .header__horarios{
     width: 50%;
@@ -15,24 +22,33 @@
     align-items: start;
     justify-content: center;
     padding-left: 150px;
+    z-index: 1;
 }
 .header__horarios h1{
     font-family: 'Nunito', sans-serif;
-    color: white
+    color: white;
+    z-index: 1;
+
 }
 .header__horarios span{
     font-family: 'Nunito', sans-serif;
-    color: rgb(0, 76, 102);
+    color: white;
     font-weight: bold;
+    z-index: 1;
+
 }
 .header__infoDireccion h1{
     font-family: 'Nunito', sans-serif;
-    color: white
+    color: white;
+    z-index: 1;
+
 }
 .header__infoDireccion h2{
     font-family: 'Nunito', sans-serif;
-    color: rgb(0, 76, 102);
-    font-weight: bold;}
+    color: white;
+    font-weight: bold;
+    z-index: 1;
+}
 .header__infoDireccion{
     width: 50%;
     display: flex;
@@ -40,4 +56,6 @@
     align-items: end;
     justify-content: center;
     padding-right: 150px;
+    z-index: 1;
+
 }
