@@ -1,0 +1,24 @@
+.container__videoPublicidad{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 150px;
+}
+.videoPublicidad {
+    width: 780px; /* Ancho del reproductor */
+    height: 450px;/* Ancho máximo del reproductor */
+    border: 10px solid rgb(80, 182, 185);
+    padding: 2px;
+    cursor: pointer;
+
+
+   
+  }
+  
+  .videoPublicidad .react-player {
+    border-radius: 10px; /* Agregar esquinas redondeadas al reproductor */
+  }
+  

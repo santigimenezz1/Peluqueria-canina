@@ -1,4 +1,5 @@
 import Footer from "../Layout/Footer/Footer"
+import VideoPublicidad from "../components/VideoPublicidad/VideoPublicidad"
 import SeccionAntesDespues from "./Secciones/SeccionAntesDespues/SeccionAntesDespues"
 import SeccionAtencionCliente from "./Secciones/SeccionAtencionCliente/SeccionAtencionCliente"
 import SeccionCitaHome from "./Secciones/SeccionCitaHome/SeccionCitaHome"
@@ -17,6 +18,7 @@ const Home = () => {
             <SeccionAtencionCliente />
             <SeccionNuestrosServicios />
             <SeccionAntesDespues />
+            <VideoPublicidad />
             <Footer />
 
 
