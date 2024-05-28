@@ -4,16 +4,15 @@ import Home from './Home/Home';
 import SobreNosotros from './SobreNosotros/SobreNosotros';
 import Servicios from './Servicios/Servicios';
 import Contacto from './Contacto/Contacto';
+import IconoWhatsapp from './components/IconoWhatsapp/IconoWhatsapp';
 
 
 function App() {
   return (
     <div className='containerPrincipal'>
-      <img 
-        className='containerPrincipal__imagenWhatsapp' 
-        src='https://res.cloudinary.com/dcf9eqqgt/image/upload/v1716373884/landing%20perritos/logo_pytkjb.png' 
-        alt='Logo de Whatsapp' 
-      />
+      <div className='containerPrincipal__imagenWhatsapp'>
+      <IconoWhatsapp />
+      </div>
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
