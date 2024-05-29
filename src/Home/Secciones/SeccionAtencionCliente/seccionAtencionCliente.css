@@ -15,7 +15,7 @@
 }
 .seccionAtencionCliente__formulario{
     width: 500px;
-    height: 100%;
+    height: 580px;
     display: flex;
     flex-direction: column;
     padding: 20px;

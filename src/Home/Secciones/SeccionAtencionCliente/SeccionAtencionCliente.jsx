@@ -53,6 +53,7 @@ const SeccionAtencionCliente = () => {
 
     return (
         <div className="SeccionAtencionCliente">
+            <img src='https://res.cloudinary.com/dcf9eqqgt/image/upload/v1716383442/landing%20perritos/-5_pxn4u6.jpg' alt="Perros" />
             <div className='seccionAtencionCliente__formulario'>
                 <h2>Contacta con nosotros</h2>
                 <h1>Att al cliente</h1>
