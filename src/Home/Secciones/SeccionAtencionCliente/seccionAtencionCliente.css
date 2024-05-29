@@ -88,3 +88,25 @@
     font-weight: 800;
     font-family: 'Nunito', sans-serif;
 }
+
+.form__botonLoading{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.form__botonLoading__loading{
+    display: none;
+}
+
+
+
+.my-custom-title {
+    color: #4CAF50; /* Cambia el color del texto del título */
+    font-size: 24px; /* Cambia el tamaño del texto del título */
+    font-weight: bold; /* Cambia el peso del texto del título */
+  }
+  
+  .my-custom-content {
+    color: red; /* Cambia el color del texto del contenido */
+    font-size: 30px; /* Cambia el tamaño del texto del contenido */
+  }
