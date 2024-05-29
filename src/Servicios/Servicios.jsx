@@ -3,6 +3,7 @@ import Footer from '../Layout/Footer/Footer'
 import '../Servicios/servicios.css'
 import HeaderPages from '../components/HeaderPages/HeaderPages'
 import TextoCeleste from '../components/TextoCeleste/TextoCeleste'
+import FormularioSolicitarServicios from './FormularioSolicitarServicio/FormularioSolicitarServicio'
 import HeaderServicios from './HeaderServicios/HeaderServicios'
 import TarjetaServicios from './TarjetaServicios/TarjetaServicios'
 const Servicios = () => {
@@ -35,6 +36,7 @@ const Servicios = () => {
             </div>
 
             </div>
+            <FormularioSolicitarServicios />
             <Footer />
         </>
     )
