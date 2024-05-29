@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import BotonPedirCita from '../../../components/BotonPedirCita/BotonPedirCita'
 import TextoCeleste from '../../../components/TextoCeleste/TextoCeleste'
 import NavBar from './NavBar/NavBar'
@@ -16,7 +17,9 @@ const SeccionHeader = () => {
           <h1>Por nuestros peludos favoritos, mejoramos cada día</h1>
           </div>
           <div className='header__info__pedirCita'>
+            <Link to={'/servicios'}>
           <BotonPedirCita text={"PEDIR CITA"} />
+            </Link>
           </div>
         </div>
       </div>

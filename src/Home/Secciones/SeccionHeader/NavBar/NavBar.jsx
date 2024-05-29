@@ -23,7 +23,9 @@ const NavBar = () => {
             </Link>
         </ul>
         <div className='navBar__ReservarCita'>
+            <Link to={'/servicios'}>
         <BotonPedirCita text={"RESERVAR CITA"} />
+            </Link>
         </div>
      </div>
     )
