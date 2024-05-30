@@ -36,7 +36,9 @@ const Servicios = () => {
             </div>
 
             </div>
+            <div className='container__forumarioSolicitarServicios'>
             <FormularioSolicitarServicios />
+            </div>
             <Footer />
         </>
     )

@@ -28,3 +28,8 @@
 .servicios__textoCeleste{
     margin-top: 60px;
 }
+.container__forumarioSolicitarServicios{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
