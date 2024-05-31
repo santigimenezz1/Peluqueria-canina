@@ -49,8 +49,23 @@ form input {
     display: flex;
     align-items: center;
 }
-.formularioSolicitarServicios__boton{
+.formularioSolicitarServicios__boton button{
     margin-top: 10px;
+}
+.formularioSolicitarServicios__boton button{
+    width: 130px;
+    cursor: pointer;
+    height: 40px;
+    font-size: 16px;
+    border: 1px solid red;
+    border-radius: 4px;
+    padding: 2px;
+    background-color: rgb(80, 182, 185);
+    border: 2px solid rgb(80, 182, 185);
+    color: white;
+    font-family: 'Nunito', sans-serif;
+
+
 }
 .input__textArea{
     height: 150px;
@@ -113,4 +128,40 @@ form input {
     padding: 2px;
     background-color: rgb(80, 182, 185);
     border: 2px solid rgb(80, 182, 185);
+}
+
+
+.form__informacion textarea {
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Nunito', sans-serif;
+    margin-top: 10px;
+    color: rgb(0, 76, 102);
+    font-size: 18px;
+    resize: none; /* Deshabilita el redimensionamiento */
+    border: none;
+
+}
+.form__informacion textarea::placeholder {
+    font-weight: bold;
+}
+
+.form__servicios textarea{
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Nunito', sans-serif;
+    margin-top: 10px;
+    color: rgb(0, 76, 102); 
+    font-size: 18px;
+    resize: none; /* Deshabilita el redimensionamiento */
+    border: none;
+
+}
+.form__servicios textarea::placeholder{
+    font-weight: bold;
+
+}
+.botonAddAnimal{
+    cursor: pointer;
+    color: rgb(0, 76, 102); 
 }
