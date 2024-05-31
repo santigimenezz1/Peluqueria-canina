@@ -37,6 +37,7 @@ const Servicios = () => {
 
             </div>
             <div className='container__forumarioSolicitarServicios'>
+                <TextoCeleste text={"Reserva tu cita"} />
             <FormularioSolicitarServicios />
             </div>
             <Footer />

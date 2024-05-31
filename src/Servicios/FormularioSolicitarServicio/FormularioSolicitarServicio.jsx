@@ -25,9 +25,6 @@ const FormularioSolicitarServicios = () => {
 
     return (
         <div className="FormularioSolicitarServicios">
-            <div className='formularioSolicitarServicios__titulo'>
-                <TextoCeleste text={"Reservar cita"} />
-            </div>
             <form>
                 <div className='form__fecha'>
                 <h1>Fecha</h1>
