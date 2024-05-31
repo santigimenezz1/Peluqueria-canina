@@ -105,6 +105,175 @@
         }
 
          /*SECCION ANTES Y DESPUES*/
+  }
+
+
+
+
+
+
+
+
+
+  @media screen and (max-width: 800px) {
+  
+    /*SECCION NOSOTROS HOME*/
+
+    .seccionNosotrosHome{
+        gap: 30px;
+    }
+    .seccionNosotrosHome img{
+        width: 350px;
+        height: 320px;
+    }
+    .seccionNosotrosHome__info{
+        width: 360px;
+    }
+    .seccionNosotrosHome span{
+        width: 350px;
+        font-size: 12px;
+    }
+        /*SECCION NOSOTROS CLIENTES*/
+
+    .seccionNuestrosClientes{
+        height: auto;
+    }
+    .seccionNuestrosClientes__imagenes img {
+        width: 230px;
+        height: 230px;
+    }
+    .seccionNuestrosClientes__imagenes{
+        gap: 10px;
+    }
+
+    .seccionNustrosClientes__imagenes-tarjeta{
+        width: 250px;
+    }
+
+    .seccionNustrosClientes__imagenes-tarjeta span{
+        font-size: 12px;
+        width: 230px;
+    }
+
+    /*SECCION CITA HOME*/
+
+    .seccionCitaHome{
+        width: 100%;
+        height: auto;
+        display: flex;
+        margin-top: 100px;
+    
+        
+    }
+    .seccionCitaHome__tarjetas{
+        width: 80%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 10px;
+        gap: 30px;
+    }
+    
+    .seccionCitaHome__imagen img {
+        width: 350px;
+       }
+       .tarjetaCitaHome{
+        height: 200px;
+        width: 200px;
+    }
+    .tarjetaCitaHome img{
+        width: 150px;
+        height: 120px;
+    }
+    
+    .tarjetaCitaHome h2{
+        line-height: 10px;
+        font-size: 18px;
+        
+    }
+    
+    .tarjetaCitaHome h3{
+        line-height: 20px;
+        font-size: 12px;
+        margin-top: 10px;
+    }
+    .SeccionAtencionCliente img {
+        width: 350px;
+        height: 430px;
+    }
+
+    .seccionAtencionCliente__formulario{
+        width: 400px;
+    }
+    
+    .seccionAtencionCliente__formulario h2{
+        font-size: 30px;
+    }
+    
+    
+    .seccionAtencionCliente__formulario h1{
+        font-size: 35px;
+    }
+    
+    .form{
+        gap: 10px;
+        height: 400px;
+    }
+    
+    .form input{
+        height: 50px;
+        padding: 15px;
+    
+    }
+    
+    .form input::placeholder{
+        font-size: 12px;
+    }
+    
+    
+    .form textarea{
+        width: 320px;
+        height: 120px;
+        padding: 15px;
+    }
+    
+    .form textarea::placeholder{
+        color: rgb(0, 76, 102);
+        font-size: 12px;
+        font-weight: 800;
+        font-family: 'Nunito', sans-serif;
+    }
+    
+    
+    
+    
+    .my-custom-title {
+        color: #4CAF50; /* Cambia el color del texto del título */
+        font-size: 24px; /* Cambia el tamaño del texto del título */
+        font-weight: bold; /* Cambia el peso del texto del título */
+      }
+      
+      .my-custom-content {
+        color: red; /* Cambia el color del texto del contenido */
+        font-size: 30px; /* Cambia el tamaño del texto del contenido */
+      }
+
+
+
+
+        /*SECCION NUESTROS SERVICIOS*/
+
+
+    .card {
+        width: 370px;
+        width: 290px;
+          perspective: 1000px;
+          cursor: pointer;
+        }
+        
+
+         /*SECCION ANTES Y DESPUES*/
       
       
   
