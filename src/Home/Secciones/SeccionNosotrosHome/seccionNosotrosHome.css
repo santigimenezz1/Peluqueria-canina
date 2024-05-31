@@ -11,6 +11,9 @@
 .seccionNosotrosHome img{
     width: 600px;
     height: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Agregado box-shadow */
+    border-radius: 7px;
+
 
 
 }
