@@ -1,0 +1,112 @@
+@media screen and (max-width: 970px) {
+  
+    /*SECCION NOSOTROS HOME*/
+
+    .seccionNosotrosHome{
+        height: auto;
+        flex-wrap: wrap;
+    }
+    .seccionNosotrosHome img{
+        width: 400px;
+        height: 350px;
+    }
+    .seccionNosotrosHome__info{
+        width: 400px;
+    }
+    .seccionNosotrosHome span{
+        width: 380px;
+        font-size: 16px;
+        font-family: 'Nunito', sans-serif;
+        color: rgb(80, 182, 185);
+    }
+        /*SECCION NOSOTROS CLIENTES*/
+
+    .seccionNuestrosClientes{
+        height: auto;
+    }
+    .seccionNuestrosClientes__imagenes img {
+        width: 250px;
+        height: 250px;
+    }
+    .seccionNuestrosClientes__imagenes{
+        gap: 20px;
+    }
+
+    .seccionNustrosClientes__imagenes-tarjeta{
+        width: 300px;
+    }
+
+    .seccionNustrosClientes__imagenes-tarjeta span{
+        font-size: 12px;
+        width: 250px;
+    }
+
+    /*SECCION CITA HOME*/
+
+    .seccionCitaHome{
+        width: 100%;
+        height: auto;
+        display: flex;
+        margin-top: 100px;
+    
+        
+    }
+    .seccionCitaHome__tarjetas{
+        width: 70%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 10px;
+        gap: 30px;
+    }
+    
+    .seccionCitaHome__imagen img {
+        width: 450px;
+       }
+       .tarjetaCitaHome{
+        height: 250px;
+        width: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .tarjetaCitaHome img{
+        width: 150px;
+        height: 120px;
+    }
+    
+    .tarjetaCitaHome h2{
+        text-align: center;
+        line-height: 25px;
+        color: rgb(0, 76, 102);
+        font-size: 18px;
+        font-weight: 800;
+        font-family: 'Nunito', sans-serif;
+        
+    }
+    
+    .tarjetaCitaHome h3{
+        text-align: center;
+        line-height: 30px;
+        font-size: 12px;
+        font-family: 'Nunito', sans-serif;
+        color: rgb(80, 182, 185);
+    }
+        /*SECCION NUESTROS SERVICIOS*/
+
+
+    .card {
+        width: 400px;
+        height: 250px;
+          perspective: 1000px;
+          cursor: pointer;
+        }
+
+         /*SECCION ANTES Y DESPUES*/
+      
+      
+  
+    
+  }

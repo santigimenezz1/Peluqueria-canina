@@ -10,7 +10,7 @@
 }
 .seccionAfterBefore{
     width: 100%;
-    height: 700px;
+    height: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;

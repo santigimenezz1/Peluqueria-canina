@@ -7,6 +7,7 @@ import SeccionHeader from "./Secciones/SeccionHeader/SeccionHeader"
 import SeccionNosotros from "./Secciones/SeccionNosotrosHome/SeccionNosotrosHome"
 import SeccionNuestrosClientes from "./Secciones/SeccionNuestrosClientes/SeccionNuestrosClientes"
 import SeccionNuestrosServicios from "./Secciones/SeccionNuestrosServicios/SeccionNuestrosServicios"
+import '../MediaQuery/mediaQuery.css'
 
 const Home = () => {
     return (
