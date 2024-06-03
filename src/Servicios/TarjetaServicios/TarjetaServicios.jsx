@@ -1,4 +1,5 @@
  import '../TarjetaServicios/tarjetaServicios.css'
+ import '../../MediaQuery/mediaQuery.css'
 const TarjetaServicios = ( {titulo, descripcion, imagen} ) => {
     return (
         <div className='container__tarjetaServicios'>

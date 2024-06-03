@@ -104,7 +104,24 @@
           cursor: pointer;
         }
 
-         /*SECCION ANTES Y DESPUES*/
+         /*SECCION CONTACTO ---------------------------------*/
+         .seccionAtencionCliente__formulario{
+            width: 420px;
+            height: 640px;
+        }
+        .form textarea{
+            width: auto;
+        }
+        .container__ubicacion{
+            margin-top: 100px;
+        }
+        .SeccionAtencionCliente img {
+            width: 340px;
+            height: 570px;
+        }
+                 /*SECCION NOSOTROS ---------------------------------*/
+
+     
   }
 
 
@@ -250,12 +267,52 @@
           perspective: 1000px;
           cursor: pointer;
         }
-         /*SECCION ANTES Y DESPUES*/ 
+    /*SECCION CONTACTO ---------------------------------*/
+    .seccionAtencionCliente__formulario{
+        width: 420px;
+        height: 640px;
+    }
+    .form textarea{
+        width: auto;
+    }
+    .SeccionAtencionCliente img {
+        width: 450px;
+        height: 570px;
+        display: none;
+    }
+    .seccionAtencionCliente__formulario{
+        width: 800px;
+        height: 580px;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        border-radius: 28px;
+        background-color: rgb(255, 240, 235);
+    }
+    .container__ubicacion{
+        margin-top: 100px;
+    }
+    .SeccionAtencionCliente img {
+        width: 340px;
+        height: 570px;
+    }
+    .tarjetaCitaHome{
+        width: 200px;
+        height: 230px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    } 
+    .tarjetaCitaHome img{
+        width: 180px;
+        height: 150px;
+    }     
   }
 
 
 
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 700px) {
 
              /*SECCION HEADER HOME*/ 
 
@@ -512,3 +569,280 @@
 
 }
   }
+
+
+
+
+
+
+
+
+
+  @media screen and (max-width: 700px) {
+
+    /*SECCION HEADER HOME*/ 
+
+.header__info{
+width: 100%;
+height: 600px;
+position: absolute; 
+top: 15%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+gap: 20px;
+padding-left: 100px;
+}
+
+.header__info__descripcion{
+width: 500px;
+}
+.header__info__descripcion h1{
+font-size: 50px;
+line-height: 60px;
+}
+
+/*SECCION NOSOTROS HOME*/
+
+.seccionNosotrosHome{
+gap: 5px;
+flex-direction: column-reverse;  
+margin-top: 20px; 
+}
+.seccionNosotrosHome h1{
+font-size: 40px;
+color: rgb(80, 182, 185);
+font-weight: 800;
+font-family: 'Covered By Your Grace', cursive;
+}
+.seccionNosotrosHome h2{
+font-size: 30px;
+color: rgb(0, 76, 102);
+font-weight: 800;
+font-family: 'Nunito', sans-serif;
+}
+
+.seccionNosotrosHome img{
+width: 550px;
+height: 360px;
+}
+.seccionNosotrosHome__info{
+width: 560px;
+justify-content: center;
+align-items: center;
+height: 350px;
+}
+
+
+.seccionNosotrosHome span{
+width: 500px;
+font-size: 16px;
+}
+/*SECCION NOSOTROS CLIENTES*/
+
+.seccionNuestrosClientes{
+height: auto;
+}
+.seccionNuestrosClientes__imagenes img {
+width: 200px;
+height: 200px;
+}
+.seccionNuestrosClientes__imagenes{
+gap: 5px;
+}
+
+.seccionNustrosClientes__imagenes-tarjeta{
+width: 220px;
+}
+
+.seccionNustrosClientes__imagenes-tarjeta span{
+font-size: 12px;
+width: 200px;
+}
+
+/*SECCION CITA HOME*/
+
+.seccionCitaHome{
+width: 100%;
+height: auto;
+display: flex;
+margin-top: 100px;
+flex-direction: column;
+gap: 30px;
+
+}
+.seccionCitaHome__tarjetas{
+width: 100%;
+height: auto;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+padding: 5px;
+gap: 40px;
+
+}
+
+.seccionCitaHome__imagen  {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.seccionCitaHome__imagen img {
+width: 400px;
+}
+.tarjetaCitaHome{
+height: auto;
+width: 250px;
+gap: 5px;
+}
+.tarjetaCitaHome img{
+width: 180px;
+height: 150px;
+}
+.tarjetaCitaHome h2{
+line-height: 16px;
+font-size: 25px;   
+}
+.tarjetaCitaHome h3{
+line-height: 25px;
+font-size: 18px;
+margin-top: 10px;
+width: 220px;
+}
+
+/*SECCION ATENCION AL CLIENTE*/
+
+.SeccionAtencionCliente  {
+   gap: 5px;
+}
+.SeccionAtencionCliente img {
+width: 350px;
+height: 430px;
+}
+
+.seccionAtencionCliente__formulario{
+width: 380px;
+height: auto;
+}
+
+.seccionAtencionCliente__formulario h2{
+font-size: 30px;
+}
+
+.seccionAtencionCliente__formulario h1{
+font-size: 35px;
+}
+.form{
+gap: 10px;
+height: 400px;
+}
+.form input{
+height: 50px;
+padding: 15px;
+} 
+.form input::placeholder{
+font-size: 12px;
+} 
+.form textarea{
+width: 320px;
+height: 120px;
+padding: 15px;
+}  
+.form textarea::placeholder{
+color: rgb(0, 76, 102);
+font-size: 12px;
+font-weight: 800;
+font-family: 'Nunito', sans-serif;
+}
+.my-custom-title {
+color: #4CAF50; /* Cambia el color del texto del título */
+font-size: 24px; /* Cambia el tamaño del texto del título */
+font-weight: bold; /* Cambia el peso del texto del título */
+}
+
+.my-custom-content {
+color: red; /* Cambia el color del texto del contenido */
+font-size: 30px; /* Cambia el tamaño del texto del contenido */
+}
+/*SECCION NUESTROS SERVICIOS*/
+.card {
+width: 370px;
+width: 290px;
+ perspective: 1000px;
+ cursor: pointer;
+}
+/*SECCION ANTES Y DESPUES*/ 
+.container__footer{
+display: flex;
+flex-direction: column;
+margin-top: 200px;
+}
+.footer{
+height: 300px;
+display: flex;
+position: relative;
+}
+.footer img{
+position: absolute;
+width: 100%;
+height: 100%;
+top: 0;
+filter: brightness(0.4);
+}
+.header__horarios{
+width: 50%;
+display: flex;
+flex-direction: column;
+align-items: start;
+justify-content: center;
+padding-left: 150px;
+z-index: 1;
+}
+.header__horarios h1{
+font-family: 'Nunito', sans-serif;
+color: white;
+z-index: 1;
+
+}
+.header__horarios span{
+font-family: 'Nunito', sans-serif;
+color: white;
+font-weight: bold;
+z-index: 1;
+
+}
+.header__infoDireccion h1{
+font-family: 'Nunito', sans-serif;
+color: white;
+z-index: 1;
+
+}
+.header__infoDireccion h2{
+font-family: 'Nunito', sans-serif;
+color: white;
+font-weight: bold;
+z-index: 1;
+}
+.header__infoDireccion{
+width: 50%;
+display: flex;
+flex-direction: column;
+align-items: end;
+justify-content: center;
+padding-right: 150px;
+z-index: 1;
+
+}
+
+
+    /*SECCION CONTACTO ---------------------------------------------*/ 
+
+        /*TARJETA SERVICIOS */
+        .servicios__tarjetas{
+            width:90%;
+            border: 1px solid black;
+        
+        } 
+
+}

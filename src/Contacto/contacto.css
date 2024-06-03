@@ -16,3 +16,16 @@
     height: 500px;
     border-radius: 10px;
 }
+.componente__ubicacionContacto{
+    display: flex;
+    justify-content: center;
+}
+.textoCeleste__ubicacion{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}

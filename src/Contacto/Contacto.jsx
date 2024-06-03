@@ -21,9 +21,13 @@ const Contacto = () => {
                 <TarjetaCitaHome imagen={"https://res.cloudinary.com/dcf9eqqgt/image/upload/v1716797912/landing%20perritos/Imagen_27-5-24_a_las_10.14_1_edw95m.jpg"} titulo={"Ubicación"} subtitulo={"Mont Olivet 14"} />
             </div>
             <SeccionAtencionCliente />
-            <div className="container__ubicacion">
+            <div>
+                <div className="textoCeleste__ubicacion">
                 <TextoCeleste text={"Nuestra ubicación"} />
+                </div>
+                <div className='componente__ubicacionContacto'>
                 <MapComponent />
+                </div>
             </div>
             <Footer />
         </div>
