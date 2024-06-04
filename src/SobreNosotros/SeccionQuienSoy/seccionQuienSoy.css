@@ -6,13 +6,12 @@
 }
 .seccionQuienSoy{
     width: 100%;
-    height: 700px;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 100px;
-    
-    
+    flex-wrap: wrap;
 }
 .seccionQuienSoy__info{
     width: 500px;
